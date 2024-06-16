@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-content">
+        <div id="weather-container">
+            <h2>WeatherGo</h2>
+            <input type="text" id="city" placeholder="Enter city">
+            <button onclick="getWeather()">Get Weather</button>
+            <div id="loading-spinner"></div>
+            <img id="weather-icon" alt="Weather Icon">
+            <div id="temp-div"></div>
+            <div id="weather-info"></div>
+            <div id="hourly-forecast"></div>
+        </div>
+    </div>
+    <footer>
+        <p>Powered by <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
